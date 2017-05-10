@@ -54,13 +54,45 @@ a{
   align-self: center;
 }
 
-.col-1 {
+.col-1, .col-2{
   align-self: center;
   color: #ffffff;
   text-align: center;
 }
 
 #text-principal {
-  font-size: 63px;
+  font-size: 70px;
   margin: 7px;
+}
+
+hr {
+  border: 3px solid #ffffff;
+  bottom: 14px;
+  display: inline-flex;
+  position: relative;
+  width: 18%;
+}
+
+.icon-star-full {
+  font-size: 34px;
+  margin: 7px;
+}
+
+h2 {
+  font-weight: 100;
+  margin: 10px;
+}
+
+.col-2{
+  align-self: center;
+  color: #333333;
+  text-align: center;
+}
+
+.raya2 {
+  border: 3px solid #2C3E50;
+}
+
+.start2 {
+  color: #2C3E50;
 }
