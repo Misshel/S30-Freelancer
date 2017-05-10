@@ -1,6 +1,6 @@
 /*
- * Estilos de tu proyecto
- */
+* Estilos de tu proyecto
+*/
 header {
   background-color: #2c3e50;
   box-sizing: border-box;
@@ -18,22 +18,22 @@ ul {
 }
 
 nav {
-  display: flex;
   color: #ffffff;
+  display: flex;
   justify-content: space-around;
 }
 
 li{
   display: inline-block;
-  padding: 20px;
   list-style: none;
+  padding: 20px;
 }
 
 a{
-  font-weight: 700;
   color: #ffffff;
-  text-decoration: none;
+  font-weight: 700;
   padding: 10px;
+  text-decoration: none;
 }
 
 .enlace:hover{
@@ -95,4 +95,75 @@ h2 {
 
 .start2 {
   color: #2C3E50;
+}
+
+.icon-zoomin {
+  color: #ffffff;
+  display: none;
+  font-size: 77px;
+  left: 42%;
+  position: absolute;
+  top: 35%;
+}
+.div-modal{
+  display: inline-block;
+  height: 250px;
+  margin: 7px;
+  position: relative;
+  width: 350px;
+}
+
+img.modal-img{
+  height: 100%;
+  width: 100%;
+}
+
+.modal{
+  background-color: #ffffff;
+  display: none;
+  height: 100%;
+  left: 0;
+  overflow: auto;
+  padding-top: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.ventana{
+  left:-90px;
+  text-align:center;
+}
+
+#imagen{
+  margin: 14px auto;
+  width: 600px;
+}
+
+div.boton-cerrar{
+  color: #8c6464;
+  cursor: pointer;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 57px;
+  font-weight: bold;
+  margin-left: 500px;
+  padding: 2px;
+  position: absolute;
+  width: 20px;
+}
+.div-modal:hover {
+  background-color: rgba(9, 199, 147, 1);
+  box-sizing: border-box;
+  overflow: hidden;
+  transition: all 0.s;
+}
+
+.div-modal:hover .imagen{
+  opacity: 0.4;
+  transition: all 0.3s;
+}
+
+.div-modal:hover .icon-zoomin{
+  display: block;
 }
