@@ -120,6 +120,7 @@ img.modal-img{
 
 .modal{
   background-color: #ffffff;
+  box-sizing: border-box;
   display: none;
   height: 100%;
   left: 0;
@@ -166,4 +167,27 @@ div.boton-cerrar{
 
 .div-modal:hover .icon-zoomin{
   display: block;
+}
+
+p {
+  margin: auto;
+  width: 601px;
+}
+
+.p-enlace{
+  font-size: 14px;
+}
+
+.modal-enlace {
+  color: #18bc9c;
+  font-weight: 100;
+}
+
+.modal-enlace:hover {
+  text-decoration: underline;
+}
+
+input {
+  height: 28px;
+  width: 70px;
 }

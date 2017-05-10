@@ -25,6 +25,7 @@ for(var i=1;i<ittem.length;i++){
 
 var modal=document.getElementsByClassName("modal")[0];
 var cerrar=document.getElementsByClassName("boton-cerrar")[0];
+var cerrar2= document.getElementById("boton");
 var contenedor=document.getElementById("imagenes");//contenedor de imagenes
 var imagen=document.getElementById("imagen");//contenido del modal
 contenedor.addEventListener('click',function (e) {
@@ -36,6 +37,11 @@ contenedor.addEventListener('click',function (e) {
 });
 
 cerrar.addEventListener("click",function(){
+  cerrar.style.display="none";
+  modal.style.display="none";
+});
+
+boton.addEventListener("click",function(){
   cerrar.style.display="none";
   modal.style.display="none";
 });
